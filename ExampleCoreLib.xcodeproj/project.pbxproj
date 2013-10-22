@@ -53,6 +53,7 @@
 		5572926E1816D121004EFD8A /* ExampleCoreLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleCoreLibTests-Info.plist"; sourceTree = "<group>"; };
 		557292701816D121004EFD8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		557292721816D121004EFD8A /* ExampleCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleCoreLibTests.m; sourceTree = "<group>"; };
+		5572927C1816E004004EFD8A /* FooService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 				5572925B1816D121004EFD8A /* ExampleCoreLib.h */,
 				5572925D1816D121004EFD8A /* ExampleCoreLib.m */,
 				557292591816D121004EFD8A /* Supporting Files */,
+				5572927C1816E004004EFD8A /* FooService.h */,
 			);
 			path = ExampleCoreLib;
 			sourceTree = "<group>";
@@ -409,6 +411,7 @@
 				557292781816D121004EFD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		557292791816D121004EFD8A /* Build configuration list for PBXNativeTarget "ExampleCoreLibTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				5572927B1816D121004EFD8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
