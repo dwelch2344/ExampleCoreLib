@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		557292571816D121004EFD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557292561816D121004EFD8A /* Foundation.framework */; };
-		5572925C1816D121004EFD8A /* ExampleCoreLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5572925B1816D121004EFD8A /* ExampleCoreLib.h */; };
-		5572925E1816D121004EFD8A /* ExampleCoreLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 5572925D1816D121004EFD8A /* ExampleCoreLib.m */; };
 		557292651816D121004EFD8A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557292641816D121004EFD8A /* XCTest.framework */; };
 		557292661816D121004EFD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557292561816D121004EFD8A /* Foundation.framework */; };
 		557292681816D121004EFD8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557292671816D121004EFD8A /* UIKit.framework */; };
@@ -35,7 +33,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				5572925C1816D121004EFD8A /* ExampleCoreLib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +42,6 @@
 		557292531816D121004EFD8A /* libExampleCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libExampleCoreLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		557292561816D121004EFD8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5572925A1816D121004EFD8A /* ExampleCoreLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleCoreLib-Prefix.pch"; sourceTree = "<group>"; };
-		5572925B1816D121004EFD8A /* ExampleCoreLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleCoreLib.h; sourceTree = "<group>"; };
-		5572925D1816D121004EFD8A /* ExampleCoreLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleCoreLib.m; sourceTree = "<group>"; };
 		557292631816D121004EFD8A /* ExampleCoreLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleCoreLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		557292641816D121004EFD8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		557292671816D121004EFD8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,8 +106,6 @@
 		557292581816D121004EFD8A /* ExampleCoreLib */ = {
 			isa = PBXGroup;
 			children = (
-				5572925B1816D121004EFD8A /* ExampleCoreLib.h */,
-				5572925D1816D121004EFD8A /* ExampleCoreLib.m */,
 				557292591816D121004EFD8A /* Supporting Files */,
 				5572927C1816E004004EFD8A /* FooService.h */,
 			);
@@ -226,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5572925E1816D121004EFD8A /* ExampleCoreLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
