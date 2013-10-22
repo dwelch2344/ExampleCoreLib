@@ -10,6 +10,6 @@
 
 @protocol FooService <NSObject>
 
-- (NSString) getMessage();
+- (NSString*) getMessage;
 
 @end
